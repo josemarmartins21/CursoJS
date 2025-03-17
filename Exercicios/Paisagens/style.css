@@ -1,0 +1,44 @@
+@charset "utf-8";
+*{
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulo-pags {
+    text-align: center;
+    color: orange;
+}
+main {
+    width: 1400px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    background-color: lightgray;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.404);
+}
+main > div {
+    margin-top: 150px; 
+    
+}
+#tipo-de-imagem {
+    margin-top: 50px;
+    width: 250px;
+    border-style: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+#btn {
+    margin-top: 10px;
+    border-style: none;
+    color: orange;
+    background-color: white;
+    cursor: pointer;
+    width: 80px;
+}
+footer {
+    width: 200px;
+    margin: auto;
+}
+footer > p {
+    text-align: center;
+    display: inline-block;
+}

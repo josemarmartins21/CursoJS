@@ -1,0 +1,44 @@
+@charset "utf-8";
+*{
+body{
+    background-color: orange;
+    font: normal 15pt Arial;
+}
+header{
+    text-align: center;
+}
+section{
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.151);
+}
+div{
+    text-align: center;
+}
+#img{
+    border-radius: 360px;
+}
+#titulo{
+    font-size: 20px;
+}
+#btt{
+    background-color: rgba(10, 102, 223, 0.548);
+    color: white;
+}
+#rad{
+    margin-right: 300px;
+}
+#foto{
+    width: 200px;
+    height: 200px;
+}
+#imagem {
+    text-align: center;
+
+}
+#foto {
+    margin-left: 250px;
+}
+}

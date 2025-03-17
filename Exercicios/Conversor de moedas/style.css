@@ -1,0 +1,44 @@
+@charset "utf-8";
+*{
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        /*Bota a imagem no site*/
+        background-image: url(pexels-theshantanukr-16689311.jpg);
+        /*Cobre todo o site com a imagem*/
+        background-size: cover;
+        /*Posiciona a imagem no site*/
+        background-position: top center;
+        
+    }
+    h1{
+        color: white;
+        text-align: center;
+    }
+    section{
+        width: 500px;
+        height: 250px;
+        border-radius: 10px;
+        margin: auto;
+    }
+    #txtn{
+        margin-left: 100px;
+        margin-top:25px;
+        padding: 12px;
+        border-radius: 10px;
+        background-color: whitesmoke;
+    }
+    #btt{
+        background-color: gray;
+        color: white;
+    }
+    #btt:hover{
+        background-color: rgba(207, 199, 199, 0.445);
+    }
+    #res{
+        font-size: 25pt;
+        text-align: center;
+        margin-top: 123px;
+        margin-left: 315px;
+
+    }
+}

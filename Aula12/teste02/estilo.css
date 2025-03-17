@@ -1,0 +1,33 @@
+@charset "utf-8";
+*{
+body{
+    background-color: goldenrod;
+    font: normal 15pt Arial;
+}
+header{
+    text-align: center;
+}
+section{
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.151);
+}
+div{
+    text-align: center;
+}
+#img{
+    border-radius: 360px;
+}
+#dados{
+    margin-right: 150px;
+}
+#btt{
+    background-color:  cornflowerblue;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px;
+}
+
+}

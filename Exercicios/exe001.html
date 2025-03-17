@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1ª exercicio</title>
+</head>
+    <style>
+        body{
+            background-color: bisque;
+        }
+    </style>
+<body>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum voluptas at vitae aliquid explicabo iure adipisci ea numquam voluptate dolor amet iste, debitis dolorem magnam voluptatibus delectus dolorum architecto? Quas?</p>
+        <div>Olá Mundo</div>
+        <p id="ol"> <i>Ola, Mundo</i></p>
+
+    <script >
+        var c = window.document.getElementsByTagName('p')[0]
+        
+        var j = window.document.querySelector('p#ol')
+        j.style.color = 'green'
+        window.document.write('Está escrito ' + j.innerHTML)
+    </script>
+</body>
+</html>

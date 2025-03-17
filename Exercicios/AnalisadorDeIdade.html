@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de idade</title>
+</head>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        input{
+            background-color: beige;
+            border-radius: 12px;
+            
+        }
+    </style>
+<body>
+    <h1>Analisador de idade</h1>
+    <input type="number" name="idd" id="idd">
+    <input type="button" value="Analisar" onclick="analisar()">
+    <div id="res">Resultado: </div>
+    <script>
+        var corpo = document.body
+        corpo.style.background = 'lightgray'
+        
+        function analisar(){
+            corpo.style.background = 'green'
+            var ide = window.document.getElementById('idd')
+            var res = window.document.getElementById('res')
+            var idade = Number(ide.value) 
+            //res.innerHTML = `A sua idade é de ${idade} anos`
+            if (idade >= 18) {
+                res.innerHTML += ` A sua idade é de ${idade} anos, você é maior de idade`
+            } else {
+                res.innerHTML += ` A sua idade é de ${idade} anos, você é menor de idade`
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+C:\Users\Josemar Martins\Documents\CursoJS\Exercicios\Exercicios\Desafios\bin\Debug\net8.0\Desafios.exe
+C:\Users\Josemar Martins\Documents\CursoJS\Exercicios\Exercicios\Desafios\bin\Debug\net8.0\Desafios.deps.json
+C:\Users\Josemar Martins\Documents\CursoJS\Exercicios\Exercicios\Desafios\bin\Debug\net8.0\Desafios.runtimeconfig.json
+C:\Users\Josemar Martins\Documents\CursoJS\Exercicios\Exercicios\Desafios\bin\Debug\net8.0\Desafios.dll
+C:\Users\Josemar Martins\Documents\CursoJS\Exercicios\Exercicios\Desafios\bin\Debug\net8.0\Desafios.pdb
+C:\Users\Josemar Martins\Documents\CursoJS\Exercicios\Exercicios\Desafios\obj\Debug\net8.0\Desafios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Josemar Martins\Documents\CursoJS\Exercicios\Exercicios\Desafios\obj\Debug\net8.0\Desafios.AssemblyInfoInputs.cache
+C:\Users\Josemar Martins\Documents\CursoJS\Exercicios\Exercicios\Desafios\obj\Debug\net8.0\Desafios.AssemblyInfo.cs
+C:\Users\Josemar Martins\Documents\CursoJS\Exercicios\Exercicios\Desafios\obj\Debug\net8.0\Desafios.csproj.CoreCompileInputs.cache
+C:\Users\Josemar Martins\Documents\CursoJS\Exercicios\Exercicios\Desafios\obj\Debug\net8.0\Desafios.dll
+C:\Users\Josemar Martins\Documents\CursoJS\Exercicios\Exercicios\Desafios\obj\Debug\net8.0\refint\Desafios.dll
+C:\Users\Josemar Martins\Documents\CursoJS\Exercicios\Exercicios\Desafios\obj\Debug\net8.0\Desafios.pdb
+C:\Users\Josemar Martins\Documents\CursoJS\Exercicios\Exercicios\Desafios\obj\Debug\net8.0\Desafios.genruntimeconfig.cache
+C:\Users\Josemar Martins\Documents\CursoJS\Exercicios\Exercicios\Desafios\obj\Debug\net8.0\ref\Desafios.dll

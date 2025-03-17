@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        
+    }
+    h1{
+        text-align: center;
+        color: white;
+    }
+    header{
+        background-color: rgba(128, 128, 128, 0.747);
+        padding: 20px;
+    }
+  input{
+    background-color: beige;
+    display: flex;
+        justify-content: center;
+
+    margin: 5px;
+    border-radius: 5px;
+  }
+    
+    h2{
+        margin: 5px;
+    }
+    #i{
+        background-color: brown;
+    }
+
+</style>
+<body>
+    <header><h1>Cálculo de IMC</h1></header>
+    <h2>Ponha os dados</h2>
+    <form action="imc">
+        <input type="number" value="Altura" name="n1" id="n1"  > <br>
+        <input type="number" name="n2" id="n2">
+        <label for="Number"></label>
+        <input type="button" value="Calcular" onclick="imc()" id="i">
+    </form>
+    
+    <h2 id="res"></h2>
+    <script>
+        function imc(){
+        var num = document.getElementById('n1')
+        var num2 = document.querySelector('input#n2')
+        var res = document.querySelector('h2#res')
+        var n1 = Number(num.value)
+        var n2 = Number(num2.value)
+        var imc = n1 + n2
+        res.innerHTML = `O seu IMC é de ${imc}`
+        }
+    
+                
+    </script>
+    
+</body>
+</html>
