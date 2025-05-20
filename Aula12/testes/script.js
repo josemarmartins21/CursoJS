@@ -3,7 +3,7 @@ function verificar(){
     var ano = data.getFullYear()
     var fano = document.getElementById('txtano')
     var idade = ano - Number(fano.value)
-    var res = document.querySelector('p#res')
+    var res = document.getElementById('res')
     if(fano.value.length == 0 || Number(fano.value) > ano){
         window.alert('Preencha os dados acima')
     }else{
@@ -29,6 +29,7 @@ function verificar(){
                 img.setAttribute('src','homemidoso.png')
             }
         }else if(fsex[1].checked){
+            genero = 'Mulher'
             if(idade > 0 && idade < 10){
                 //miuda
                 img.setAttribute('src','miuda.png')
