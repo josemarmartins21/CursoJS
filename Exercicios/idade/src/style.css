@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 500px;
+    background-color: rgb(228, 224, 224);
+    border-radius: 15px;
+    box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.425);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+
+}
+
+
+p {
+    text-align: left;
+    margin: 5px;
+}
+
+button {
+    border-style: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    color: black;
+    cursor: pointer;
+}
+button:hover {
+    background-color: darkgoldenrod;
+    transition: 1.2s;
+}
+p {
+    width: 100%;
+    text-align: left;
+}
